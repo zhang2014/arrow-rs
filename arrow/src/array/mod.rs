@@ -227,6 +227,7 @@ pub use self::builder::StringBuilder;
 pub use self::builder::StringDictionaryBuilder;
 pub use self::builder::StructBuilder;
 pub use self::builder::UnionBuilder;
+pub use self::builder::GenericBinaryArray;
 
 pub type Int8Builder = PrimitiveBuilder<Int8Type>;
 pub type Int16Builder = PrimitiveBuilder<Int16Type>;
